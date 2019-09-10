@@ -24,7 +24,7 @@ public class Solution {
                 a[i][j] = arrItem;
             }
         }
-        int maxSum=0;
+        int maxSum=-63;
         int sum;
         for (int i=0;i<4;i++){
         
