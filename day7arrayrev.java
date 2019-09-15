@@ -8,8 +8,6 @@ import java.util.regex.*;
 
 public class Solution {
 
-
-
     private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -25,8 +23,8 @@ public class Solution {
             int arrItem = Integer.parseInt(arrItems[i]);
             arr[i] = arrItem;
         }
-        for(int i=n-1;i>=0;i--){
-            System.out.print(arr[i]+" ");
+        for (int i = n - 1; i >= 0; i--) {
+            System.out.print(arr[i] + " ");
         }
 
         scanner.close();

@@ -6,7 +6,7 @@ public class Solution {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int cases = scan.nextInt();
-        for(int c=0;c<cases;c++) {
+        for (int c = 0; c < cases; c++) {
             String even, odd;
             even = odd = "";
             String myString = scan.next();
@@ -18,7 +18,7 @@ public class Solution {
                 odd += charArray[j];
             }
             System.out.println(even + " " + odd);
+            scan.close();
         }
     }
 }
-
