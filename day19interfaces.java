@@ -27,6 +27,6 @@ class Solution {
       	AdvancedArithmetic myCalculator = new Calculator(); 
         int sum = myCalculator.divisorSum(n);
         System.out.println("I implemented: " + myCalculator.getClass().getInterfaces()[0].getName() );
-        System.out.println(sum);
+        System.out.println(sum );
     }
 }
